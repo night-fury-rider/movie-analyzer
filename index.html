@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Movie Analyzer </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="node_modules/primeui/themes/omega/theme.css" />
+    <link rel="stylesheet" type="text/css" href="app/resources/icons/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/primeui/primeui-ng-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- External Fonts -->
+    <link rel="stylesheet" type="text/css" href="app/resources/fonts/Playfair Display.ttf" />
+    <!-- Styles related to Movies -->
+    <link rel="stylesheet" type="text/css" href="app/movies/movies.css" />
+    <link rel="stylesheet" type="text/css" href="app/spinner/spinner.css" />
+</head>
+<!-- 3. Display the application -->
+
+<body>
+    <div class="container">
+        <my-app>
+            <div class="spinner-container">
+                <div class="clear-loading loading-effect-4">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </my-app>
+    </div>
+    <script src="prod/polyfills.js"></script>
+    <script src="prod/vendor.js"></script>
+    <script src="prod/app.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

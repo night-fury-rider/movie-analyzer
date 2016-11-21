@@ -1,0 +1,97 @@
+{
+  "baseUrl": "",
+  "resourcePath": "app/resources/data/",
+  "printQualities": [
+    {
+      "name": "1080p",
+      "isSelected": false
+    },
+    {
+      "name": "720p",
+      "isSelected": false
+    },
+    {
+      "name": "DVD",
+      "isSelected": false
+    },
+    {
+      "name": "TS/TC",
+      "isSelected": false
+    },
+    {
+      "name": "CAM",
+      "isSelected": false
+    }
+    
+  ],
+  "categories": [
+    {
+      "name": "Action",
+      "isSelected": false
+    },
+    {
+      "name": "Adventure",
+      "isSelected": false
+    },
+    {
+      "name": "Alien",
+      "isSelected": false
+    },
+    {
+      "name": "Animation",
+      "isSelected": false
+    },
+    {
+      "name": "Comedy",
+      "isSelected": false
+    },
+    {
+      "name": "Dance",
+      "isSelected": false
+    },
+    {
+      "name": "Dynasours and Animals",
+      "isSelected": false
+    },
+    {
+      "name": "Fantasy",
+      "isSelected": false
+    },
+    {
+      "name": "Ghost and Horror",
+      "isSelected": false
+    },
+    {
+      "name": "Melody and Drama",
+      "isSelected": false
+    },
+    {
+      "name": "Mystery",
+      "isSelected": false
+    },
+    {
+      "name": "Planning",
+      "isSelected": false
+    },
+    {
+      "name": "Romance",
+      "isSelected": false
+    },
+    {
+      "name": "Sci-Fi",
+      "isSelected": false
+    },
+    {
+      "name": "Superhero",
+      "isSelected": false
+    },
+    {
+      "name": "Vampire vs Zombies",
+      "isSelected": false
+    },
+    {
+      "name": "Wars",
+      "isSelected": false
+    }
+  ]
+}

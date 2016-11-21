@@ -1,0 +1,143 @@
+/*
+ * Title: Pure CSS3 Menu
+ * Author: Clear
+ * Version: 1.0.0
+ * Create: 2015-06-05
+ * Update: 2015-06-15
+ * http://www.ClearDesign.me
+ */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: normal;
+}
+
+body {
+  background: #3498DB;
+  color: #fff;
+  font-family: "Segoe UI", "Microsoft YaHei";
+}
+ 
+.spinner-container {
+  width: 100%; 
+  margin: auto;
+}
+ 
+.spinner-container {
+  text-align: center;
+}
+ 
+/* Clear Loading */
+.clear-loading {
+  text-align: center;  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Loading Effect Four */
+.loading-effect-4 {
+  width: 100px;
+  height: 100px;
+}
+.loading-effect-4 > div {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.loading-effect-4 span {
+  background: #fff;
+  display: block;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  -webikt-transform-origin: 0 49px;
+  -moz-transform-origin: 0 49px;
+  -o-transform-origin: 0 49px;
+  transform-origin: 0 49px;
+}
+.loading-effect-4 span:first-child {
+  background: #19be9b;
+  -webkit-animation: effect-4-1 1.5s infinite linear;
+  -moz-animation: effect-4-1 1.5s infinite linear;
+  -ms-animation: effect-4-1 1.5s infinite linear;
+  -o-animation: effect-4-1 1.5s infinite linear;
+  animation: effect-4-1 1.5s infinite linear;
+}
+.loading-effect-4 span:nth-child(2) {
+  background: #ffffff;
+  -webkit-animation: effect-4-1 2s infinite linear;
+  -moz-animation: effect-4-1 2s infinite linear;
+  -ms-animation: effect-4-1 2s infinite linear;
+  -o-animation: effect-4-1 2s infinite linear;
+  animation: effect-4-1 2s infinite linear;
+}
+.loading-effect-4 span:nth-child(3) {
+  background: #e64b3c;
+  -webkit-animation: effect-4-1 2.5s infinite linear;
+  -moz-animation: effect-4-1 2.5s infinite linear;
+  -ms-animation: effect-4-1 2.5s infinite linear;
+  -o-animation: effect-4-1 2.5s infinite linear;
+  animation: effect-4-1 2.5s infinite linear;
+}
+.loading-effect-4 span:nth-child(4) {
+  background: #32465f;
+  -webkit-animation: effect-4-1 3s infinite linear;
+  -moz-animation: effect-4-1 3s infinite linear;
+  -ms-animation: effect-4-1 3s infinite linear;
+  -o-animation: effect-4-1 3s infinite linear;
+  animation: effect-4-1 3s infinite linear;
+}
+@-webkit-keyframes effect-4-1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes effect-4-1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,28 @@
+/***
+	File containing styles related to movies.
+*/
+
+ 
+ 
+.pageHead h1 {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    margin-left: 33%;
+    padding: 2%;
+}
+ 
+.checkbox-grid li {
+    display: block;   
+    padding: 5px;
+    width: 33%; 
+}
+
+/**
+ * Styles of movies table
+ */
+#movieTableContainer {
+    padding-top: 3%
+}
+
+#movieSearcher {
+	width: 90%;
+}
